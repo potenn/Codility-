@@ -6,6 +6,17 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.junit.Test;
 
+/*
+1. Fisrt, You must clean the character except for Digit
+2. Using CleanedString, You count the CleanedString
+3.
+Divide by 3 for all numbers and the rest will be only 0, 1, 2.
+So, you use this characterristic
+you solve the problem each case(0,1,2)
+
+*/
+
+
 public class CodilityProblem1_reformat_phone_number {
 
 	@Test
